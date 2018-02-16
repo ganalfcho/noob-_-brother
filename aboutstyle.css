@@ -1,0 +1,216 @@
+*:focus {
+    outline: none;
+	
+}
+body{
+	margin:0px;
+padding:0px;
+width:100%;
+background-color:  #28283e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0;
+}
+
+#header{
+background-color: #1e1e2f;
+padding: 10px;
+z-index: 1;
+box-shadow: 0px 12px 12px #14141f;
+opacity: 0.95;
+position: sticky;
+top: 0;
+}
+
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.menu{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: 600px;
+    text-transform: uppercase;
+    margin-left: 60px;
+	cursor: pointer;
+	
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {  
+  .overlay a {font-size: 20px}  
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+h6{
+	color: #e43d4e;
+    text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Oswald', sans-serif;
+margin: 30px 0px 0px 0px;
+}
+
+h3{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: 600px;
+    text-transform: uppercase;
+	margin: 0px 0px 30px 0px;
+}
+h6 span{
+	font-size: 25px;
+	color: white;
+	margin-right: 5px;
+}
+
+h1{
+font-size: 23px;
+	color: #808080;
+	margin-left: 39%
+}
+
+
+.contact_us, .message_us, .work_time{
+	display: inline-block;
+	padding-right: 25px;
+}
+
+.contact_us{
+	margin-left: 200px;   
+}
+
+.logos{
+float: right;
+margin-top: 30px;
+margin-right: 60px;
+
+
+}
+
+.fb:hover, .yt:hover, .ig:hover{
+	animation-name: hop;
+position: relatieve;
+animation-duration: 0.5s;
+animation-delay: 0s;
+animation-direction: reverse;
+animation-iteration-count: 1;
+animation-timing-tunction: ease-in-out;
+}
+
+@keyframes hop {
+0%   {transform:rotatez(0deg);  left:30px; top:60px;}
+25%  {transform:rotatez(6deg); left:30px; top:60px;}
+50%  {transform:rotatez(-6deg); left:30px; top:60px;}
+75%  {transform:rotatez(6deg); left:30px; top:60px;}
+100% {transform:rotatez(-6deg) left:30px; top:60px;}
+}
+}
+
+span {
+  margin-right: 10px;
+  
+  }
+
+img{
+	cursor: pointer;
+}
+
+.number, .mail, .time{
+	margin-left: 25px;
+}
+
+
+#content{
+	}
+
+#content h6 {
+	font-size: 23px;
+	color: #808080;
+	border-bottom: 1px solid #808080; 
+	text-align: center;
+}
+
+
+ul{
+margin-left: 37%;
+color: #808080;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 600px;
+}
+
+
+
+
+
+#footer{
+background-color: #1e1e2f;
+padding: 10px;
+}
+
+
+h5{
+	color: white;
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 40%
+}
+
+h4{
+	color: #e43d4e;
+    text-transform: uppercase;
+	font-size: 26px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 4px;
+	text-align: center;
+}
